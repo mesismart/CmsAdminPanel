@@ -9,7 +9,7 @@ export default function Widget() {
     <div className="widgetSm">
         <span className="widgetSmTitle">New Joined Member</span>
         <ul className="widgetSmList">
-        <li className="widgetSmListItem">
+            <li className="widgetSmListItem">
                 <img src="images/Profile/prof1.jfif" className='widgetSmImg' />
                 <div className="widgetSmUser">
                     <span className="widgetSmUserName">Name1</span>
