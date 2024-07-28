@@ -1,27 +1,27 @@
-let xAxisData = [
+export let xAxisData = [
   {
     name: "Jan",
-    sale: 112_000,
+    sale: 166_000,
   },
   {
     name: "Feb",
+    sale: 16_000,
+  },
+  {
+    name: "Jul",
     sale: 112_000,
   },
   {
-    name: "Mar",
-    sale: 112_000,
+    name: "Agu",
+    sale: 56_000,
   },
   {
-    name: "Jan",
-    sale: 112_000,
-  },
-  {
-    name: "Jan",
-    sale: 112_000,
+    name: "Sep",
+    sale: 320_000,
   },
   {
     name: "Oct",
-    sale: 112_000,
+    sale: 255,
   },
   {
     name: "Nov",
@@ -29,10 +29,6 @@ let xAxisData = [
   },
   {
     name: "Dev",
-    sale: 112_000,
-  },
-  {
-    name: "Jan",
-    sale: 112_000,
+    sale: 212_000,
   },
 ];
