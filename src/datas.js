@@ -32,3 +32,30 @@ export let xAxisData = [
     sale: 212_000,
   },
 ];
+
+export let newMember = [
+  {
+    id: 1,
+    username: "Mohamaddd",
+    title: "Web Developer",
+    img: "images/Profile/prof1.jfif",
+  },
+  {
+    id: 2,
+    username: "David",
+    title: "Seo Engine",
+    img: "images/Profile/prof2.jfif",
+  },
+  {
+    id: 3,
+    username: "Georgia",
+    title: "Weblog",
+    img: "images/Profile/prof3.jfif",
+  },
+  {
+    id: 4,
+    username: "Rodrigo",
+    title: "Game developer",
+    img: "images/Profile/prof4.jfif",
+  },
+];
