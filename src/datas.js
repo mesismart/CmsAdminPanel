@@ -59,3 +59,91 @@ export let newMember = [
     img: "images/Profile/prof4.jfif",
   },
 ];
+
+export let transactions = [
+  {
+    id: 1,
+    customer: "Black lock",
+    data: "14 Jun 2024",
+    amount: 123,
+    status: "Declined",
+    img: "images/prof1.jfif",
+  },
+  {
+    id: 2,
+    customer: "Jane Stone",
+    data: "5 Novamber 2021",
+    amount: 458,
+    status: "Pending",
+    img: "images/prof2.jfif",
+  },
+  {
+    id: 3,
+    customer: "Stlone Go",
+    data: "28 Feb 2022",
+    amount: 123,
+    status: "Declined",
+    img: "images/prof3.jfif",
+  },
+  {
+    id: 4,
+    customer: "Ali Davis",
+    data: "19 Apr 2023",
+    amount: 123,
+    status: "Approved",
+    img: "images/prof4.jfif",
+  },
+];
+
+export let userRows = [
+  {
+    id: 1,
+    username: "John Doe",
+    avatar: "images/prof1.jfif",
+    status: "active",
+    transactions: "$120",
+  },
+  {
+    id: 2,
+    username: "John Stiven",
+    avatar: "images/prof1.jfif",
+    status: "active",
+    transactions: "$20",
+  },
+  {
+    id: 3,
+    username: "Jim Carry",
+    avatar: "images/prof1.jfif",
+    status: "active",
+    transactions: "$18.22",
+  },
+  {
+    id: 4,
+    username: "Sam Nicklson",
+    avatar: "images/prof1.jfif",
+    status: "active",
+    transactions: "$198",
+  },
+  {
+    id: 5,
+    username: "Foji Suda",
+    avatar: "images/prof1.jfif",
+    status: "active",
+    transactions: "$183",
+  },
+];
+
+export const productsData = [
+  {
+    name: "Jan",
+    sales: 4000,
+  },
+  {
+    name: "Feb",
+    sales: 3000,
+  },
+  {
+    name: "Mar",
+    sales: 5000,
+  },
+];
