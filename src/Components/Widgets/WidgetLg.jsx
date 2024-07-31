@@ -1,6 +1,8 @@
 import React from "react";
 import "./WidgetLg.css";
 
+import { transactions } from "../../datas";
+
 export default function WidgetLg() {
   const Button = ({ type }) => {
     return <button className={"widgetLgButton" + type}>{type}</button>;
@@ -16,21 +18,24 @@ export default function WidgetLg() {
           <th className="widgetLgTh">Amout</th>
           <th className="widgetLgTh">Status</th>
         </tr>
-        <tr className="widgetLgTr">
-          <td className="widgetLgUser">
-            <img
-              src="images/Profile/prof2.jfif"
-              className="widgetLgImg"
-              alt=""
-            />
-            <span className="widgetLgName">alexanra</span>
-          </td>
-          <td className="widgetLgDate">5 Jun 2022</td>
-          <td className="widgetLgAmount">20$</td>
-          <td className="widgetLgStatus">
-            <Button className="approved"></Button>
-          </td>
-        </tr>
+
+        {transactions.map((transactions) => (
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="images/Profile/prof2.jfif"
+                className="widgetLgImg"
+                alt=""
+              />
+              <span className="widgetLgName">alexanra</span>
+            </td>
+            <td className="widgetLgDate">5 Jun 2022</td>
+            <td className="widgetLgAmount">20$</td>
+            <td className="widgetLgStatus">
+              <Button className="approved"></Button>
+            </td>
+          </tr>
+        ))}
       </table>
     </div>
   );
